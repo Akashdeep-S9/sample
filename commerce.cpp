@@ -72,7 +72,7 @@ using namespace std;
     std::cin >> password;
     if(cu.authenticate(name,password)){
       while (ch != 0) {
-        cout<<"Enter choice 1,2,3,4,0\n";
+        cout<<"Enter choice 1,2,3,4\n";
         cin>>ch;
         if(ch == 1){
           for(int i = 0;i < n;i++){
